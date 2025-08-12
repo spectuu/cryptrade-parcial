@@ -7,7 +7,7 @@ import parcial.type.TransactionType;
 
 import java.util.*;
 
-public class MarketService {
+public class MarketService implements MarketTransaction {
 
     Queue<Transaction> marketTransaction = new LinkedList<>();
 
@@ -70,6 +70,16 @@ public class MarketService {
                 System.out.println(usuario.getNombre() + " no opera este turno.");
             }
         }
+    }
+
+    @Override
+    public void Buy(String symbol, double amount) {
+        System.out.println("Compra de " + amount + " unidades de " + symbol + " realizada.");
+    }
+
+    @Override
+    public void Sell(String symbol, double amount) {
+        System.out.println("Venta de " + amount + " unidades de " + symbol + " realizada.");
     }
 
 }
