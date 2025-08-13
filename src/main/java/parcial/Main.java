@@ -1,6 +1,7 @@
 package parcial;
 
 import parcial.model.Cryptocoin;
+import parcial.model.Transaction;
 import parcial.model.User;
 import parcial.service.HttpService;
 import parcial.service.MarketService;
@@ -13,24 +14,33 @@ import java.util.Queue;
 public class Main {
     public static void main(String[] args) {
 
-        List<Cryptocoin> criptos = HttpService.get("https://api.coinlore.net/api/tickers/");
+        MarketService marketService = new MarketService();
 
-        ArrayList<User> usuarios = new ArrayList<>();
-        usuarios.add(new User("0"));
-        usuarios.add(new User("Luis"));
-        usuarios.add(new User("Maria"));
-        usuarios.add(new User("Juan"));
+        List<Cryptocoin> cryptos = HttpService.get("https://api.coinlore.net/api/tickers/");
 
-        Queue libroOrdenes = new LinkedList();
-
-        int TURNOS = 5;
-        for (int t = 1; t <= TURNOS; t++) {
-            MarketService.simularTurno(t, criptos, usuarios, libroOrdenes);
+        if (cryptos == null || cryptos.isEmpty()) {
+            System.out.println("Cant fetch cryptocurrencies.");
+            return;
         }
 
-        System.out.println("\nLibro de órdenes:");
-        while (!libroOrdenes.isEmpty()) {
-            System.out.println(libroOrdenes.poll());
+        List<User> users = new ArrayList<>();
+        users.add(new User("Santiago"));
+        users.add(new User("Luis"));
+        users.add(new User("Maria"));
+        users.add(new User("Juan"));
+
+        Queue<Transaction> orderBook = new LinkedList<>();
+
+        final int TOTAL_TURNS = 5;
+
+        for (int turn = 1; turn <= TOTAL_TURNS; turn++) {
+            marketService.simulateTurn(turn, cryptos, users, orderBook);
+        }
+
+        System.out.println("\nOrder Book:");
+
+        while (!orderBook.isEmpty()) {
+            System.out.println(orderBook.poll());
         }
 
     }

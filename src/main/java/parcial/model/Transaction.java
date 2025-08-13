@@ -1,9 +1,5 @@
 package parcial.model;
 
-import parcial.type.TransactionType;
-
-import java.util.Date;
-
 public class Transaction {
 
     private String user;
@@ -13,6 +9,30 @@ public class Transaction {
     public Transaction(String user, String crypto, double price) {
         this.user = user;
         this.crypto = crypto;
+        this.price = price;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getCrypto() {
+        return crypto;
+    }
+
+    public void setCrypto(String crypto) {
+        this.crypto = crypto;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
         this.price = price;
     }
 

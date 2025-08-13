@@ -2,16 +2,18 @@ package parcial.model;
 
 public class User {
 
-    private String nombre;
+    private String name;
 
     private final Wallet<Cryptocoin> wallet;
 
-    public User(String nombre) {
-        this.nombre = nombre;
+    public User(String name) {
+
+        this.name = name;
         this.wallet = new Wallet<>();
+
     }
 
-    public String getNombre() { return nombre; }
+    public String getName() { return name; }
 
     public Wallet<Cryptocoin> getWallet() { return wallet; }
 
