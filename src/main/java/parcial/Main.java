@@ -29,7 +29,7 @@ public class Main {
         users.add(new User("Maria"));
         users.add(new User("Juan"));
 
-        Queue<Transaction> orderBook = new LinkedList<>();
+        Queue<Transaction> orderBook = new LinkedList<>(); // se usa la queue para el libro de órdenes porque se necesita un orden FIFO (First In, First Out)
 
         final int TOTAL_TURNS = 5;
 

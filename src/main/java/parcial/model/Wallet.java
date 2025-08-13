@@ -2,9 +2,10 @@ package parcial.model;
 
 import java.util.Stack;
 
+// se usa una bag para almacenar los elementos de la billetera, ya que no se requiere un orden específico de los elementos
 public class Wallet<T> {
 
-    private final Stack<T> items;
+    private final Stack<T> items; // se usa Stack para que el último elemento agregado sea el primero en salir (LIFO)
 
     public Wallet() {
 
