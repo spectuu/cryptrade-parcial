@@ -1,85 +1,139 @@
 package parcial.service;
 
+import parcial.interfaces.MarketTransaction;
 import parcial.model.Cryptocoin;
 import parcial.model.Transaction;
 import parcial.model.User;
-import parcial.type.TransactionType;
 
 import java.util.*;
 
 public class MarketService implements MarketTransaction {
 
-    Queue<Transaction> marketTransaction = new LinkedList<>();
+    private static final Random rand = new Random();
 
-    static Random rand = new Random();
-
-    public static int RandomNum(int min, int max) {
+    public static int getRandomInt(int min, int max) {
         return rand.nextInt((max - min) + 1) + min;
     }
 
-    public static ArrayList<Cryptocoin> fluctuarPrecios(ArrayList<Cryptocoin> criptos) {
-        ArrayList<Cryptocoin> resultado = new ArrayList<>();
-        for (Cryptocoin c : criptos) {
-            int cambioSigno = RandomNum(0, 1) == 1 ? 1 : -1;
-            double cambio = cambioSigno * (RandomNum(1, 10) / 100.0);
-            double precio = Double.parseDouble(c.getPrice_usd());
-            double nuevoPrecio = Math.max(1, precio + precio * cambio);
-            resultado.add(new Cryptocoin(c.getId(), c.getSymbol(), c.getName(), String.format("%.2f", nuevoPrecio)));
+    public static List<Cryptocoin> fluctuatePrices(List<Cryptocoin> cryptos) {
+        List<Cryptocoin> result = new ArrayList<>();
+        for (Cryptocoin c : cryptos) {
+            int sign = getRandomInt(0, 1) == 1 ? 1 : -1;
+            double change = sign * (getRandomInt(1, 10) / 100.0);
+            double currentPrice = Double.parseDouble(c.getPrice_usd());
+            double newPrice = Math.max(1, currentPrice + currentPrice * change);
+            result.add(new Cryptocoin(
+                    c.getId(),
+                    c.getSymbol(),
+                    c.getName(),
+                    String.format("%.2f", newPrice)
+            ));
         }
-        return resultado;
+        return result;
     }
 
-    public static void simularTurno(int turno, List<Cryptocoin> criptos, ArrayList<User> usuarios, Queue libroOrdenes) {
+    public void simulateTurn(int turn, List<Cryptocoin> cryptos, List<User> users, Queue<Transaction> orderBook) {
 
-        System.out.println("\n--- Turno " + turno + " ---");
+        System.out.println("\n--- Turn " + turn + " ---");
 
-        for (int i = 0; i < criptos.size(); i++) {
-            ArrayList<Cryptocoin> temp = new ArrayList<>();
-            temp.add(criptos.get(i));
-            criptos.set(i, fluctuarPrecios(temp).get(0));
+        for (int i = 0; i < cryptos.size(); i++) {
+            List<Cryptocoin> temp = new ArrayList<>();
+            temp.add(cryptos.get(i));
+            cryptos.set(i, fluctuatePrices(temp).getFirst());
         }
 
-        System.out.print("Precios: ");
-        for (int i = 0; i < criptos.size(); i++) {
-            Cryptocoin c = criptos.get(i);
+        System.out.print("Prices: ");
+        for (int i = 0; i < cryptos.size(); i++) {
+            Cryptocoin c = cryptos.get(i);
             System.out.print(c.getName() + ": $" + c.getPrice_usd());
-            if (i < criptos.size() - 1) System.out.print(", ");
+            if (i < cryptos.size() - 1) System.out.print(", ");
         }
 
-        for (User usuario : usuarios) {
-            int opera = RandomNum(0, 1);
-            if (opera == 1) {
-                Cryptocoin cripto = criptos.get(RandomNum(0, criptos.size() - 1));
-                String tipo = RandomNum(0, 1) == 1 ? "compra" : "venta";
-                int cantidad = RandomNum(1, 5);
+        System.out.println();
 
+        for (User user : users) {
 
-                Transaction transaccion = new Transaction(usuario.getNombre(), cripto.getName(), Double.parseDouble(cripto.getPrice_usd()));
-                libroOrdenes.add(transaccion);
-                System.out.println(usuario.getNombre() + " quiere " + tipo + " " + cantidad + " " + cripto.getName() + " a $" + cripto.getPrice_usd());
+            boolean willTrade = getRandomInt(0, 1) == 1;
 
-                if(tipo.equals("compra")){
-                    usuario.getWallet().addItem(new Cryptocoin(cripto.getId(), cripto.getSymbol(), cripto.getName(), cripto.getPrice_usd()));
+            if (willTrade) {
+                Cryptocoin chosenCrypto = cryptos.get(getRandomInt(0, cryptos.size() - 1));
+                boolean isBuy = getRandomInt(0, 1) == 1;
+                int quantity = getRandomInt(1, 5);
+
+                Transaction transaction = new Transaction(
+                        user.getName(),
+                        chosenCrypto.getName(),
+                        Double.parseDouble(chosenCrypto.getPrice_usd())
+                );
+
+                orderBook.add(transaction);
+
+                if (isBuy) {
+                    buy(user, chosenCrypto, quantity);
+                } else {
+                    sell(user, chosenCrypto, quantity);
                 }
 
-                for (Cryptocoin cryptocoin : usuario.getWallet().getItems()){
-                    System.out.println(usuario.getNombre() + " tiene en su wallet " + cryptocoin.getName());
+                for (Cryptocoin coin : user.getWallet().getItems()) {
+                    System.out.println(user.getName() + " has " + coin.getName() + " in wallet.");
                 }
 
             } else {
-                System.out.println(usuario.getNombre() + " no opera este turno.");
+                System.out.println(user.getName() + " decides not to trade this turn.");
             }
+
         }
     }
 
     @Override
-    public void Buy(String symbol, double amount) {
-        System.out.println("Compra de " + amount + " unidades de " + symbol + " realizada.");
+    public void buy(User user, Cryptocoin coin, int quantity) {
+
+        for (int i = 0; i < quantity; i++) {
+            user.getWallet().addItem(new Cryptocoin(
+                    coin.getId(),
+                    coin.getSymbol(),
+                    coin.getName(),
+                    coin.getPrice_usd()
+            ));
+        }
+
+        System.out.println(user.getName() + " buys " + quantity + " units of " + coin.getName() + " at $" + coin.getPrice_usd());
+
     }
 
     @Override
-    public void Sell(String symbol, double amount) {
-        System.out.println("Venta de " + amount + " unidades de " + symbol + " realizada.");
-    }
+    public void sell(User user, Cryptocoin coin, int quantity) {
 
+        int ownedCount = 0;
+
+
+        for (Cryptocoin c : user.getWallet().getItems()) {
+            if (c.getName().equals(coin.getName())) {
+                ownedCount++;
+            }
+        }
+
+        if (ownedCount < quantity) {
+            return;
+        }
+
+        int removed = 0;
+        Stack<Cryptocoin> tempStack = new Stack<>();
+        while (!user.getWallet().isEmpty()) {
+            Cryptocoin current = user.getWallet().removeItem();
+            if (current.getName().equals(coin.getName()) && removed < quantity) {
+                removed++;
+            } else {
+                tempStack.push(current);
+            }
+        }
+
+        while (!tempStack.isEmpty()) {
+            user.getWallet().addItem(tempStack.pop());
+        }
+
+        System.out.println(user.getName() + " sold " + quantity + " units of " + coin.getName() + " at $" + coin.getPrice_usd());
+
+    }
 }
+
