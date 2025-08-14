@@ -499,3 +499,25 @@
 2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 1 units of Staked Ether at $3748.53 USD but has insufficient balance. Needed: 1.499412E7 COP, Available: 200000.0 COP
 2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Juan buys 1 units of Staked Ether at $3748.53 new balance: 200000.0 in COP
 2025-08-13 23:43:14 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:47:34 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:47:34 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to buy 3 units of Bitcoin at $1000.0 USD but has insufficient balance. Needed: 1.2E7 COP, Available: 1.0E7 COP
+2025-08-13 23:47:34 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:47:34 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to sell 2 units of Bitcoin at $1000 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:47:34 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:47:34 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:47:34 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to sell 2 units of Bitcoin at $1000 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:47:34 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1000.0 COP
+2025-08-13 23:47:34 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to buy 2 units of Bitcoin at $1000.0 USD but has insufficient balance. Needed: 8000000.0 COP, Available: 1000.0 COP
+2025-08-13 23:49:15 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:49:15 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to buy 3 units of Bitcoin at $1000.0 USD but has insufficient balance. Needed: 1.2E7 COP, Available: 1.0E7 COP
+2025-08-13 23:49:15 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:49:15 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to sell 2 units of Bitcoin at $1000 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:49:26 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:49:26 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:49:26 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to sell 2 units of Bitcoin at $1000 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:49:26 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1000.0 COP
+2025-08-13 23:49:26 [Test worker] WARN  parcial.service.ProcessTransactionService - Test User tried to buy 2 units of Bitcoin at $1000.0 USD but has insufficient balance. Needed: 8000000.0 COP, Available: 1000.0 COP
+2025-08-13 23:49:47 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:49:47 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 2000000.0 COP
+2025-08-13 23:50:05 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 1.0E7 COP
+2025-08-13 23:50:05 [Test worker] INFO  parcial.service.ProcessTransactionService - User Test User balance before buy: 2000000.0 COP

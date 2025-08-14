@@ -39,17 +39,6 @@ public class JunitTest {
     }
 
     @Test
-    void testSellTransactionSuccess() {
-
-        ProcessTransactionService.processBuyTransaction(user, bitcoin, 3, TransactionType.BUY);
-
-        ProcessTransactionService.processSellTransaction(user, bitcoin, 2, TransactionType.SELL);
-        assertEquals(1, user.getWallet().size());
-        assertEquals(2, user.getTransactionHistory().size());
-        assertEquals(TransactionType.SELL, user.getTransactionHistory().peek().getType());
-    }
-
-    @Test
     void testSellTransactionInsufficientCoins() {
 
         ProcessTransactionService.processSellTransaction(user, bitcoin, 2, TransactionType.SELL);
@@ -57,6 +46,15 @@ public class JunitTest {
         assertTrue(user.getTransactionHistory().isEmpty());
     }
 
+    @Test
+    void testSellTransactionSuccess() {
+        ProcessTransactionService.processBuyTransaction(user, bitcoin, 2, TransactionType.BUY);
+        ProcessTransactionService.processSellTransaction(user, bitcoin, 1, TransactionType.SELL);
+        assertEquals(6000000.0 - (1 * 1000 * ProcessTransactionService.USD_TO_COP), user.getBalance());
+        assertEquals(1, user.getWallet().size());
+        assertEquals(2, user.getTransactionHistory().size());
+        assertEquals(TransactionType.SELL, user.getTransactionHistory().peek().getType());
+    }
 
 
 }
