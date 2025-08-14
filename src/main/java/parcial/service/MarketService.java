@@ -1,19 +1,18 @@
 package parcial.service;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import parcial.interfaces.MarketTransaction;
 import parcial.model.Cryptocoin;
 import parcial.model.Transaction;
 import parcial.model.User;
+import parcial.model.type.TransactionType;
 
 import java.util.*;
 
 public class MarketService implements MarketTransaction {
 
-    private static final Random rand = new Random();
-
-    public static int getRandomInt(int min, int max) {
-        return rand.nextInt((max - min) + 1) + min;
-    }
+    private static final Logger logger = LogManager.getLogger(MarketService.class);
 
     public static List<Cryptocoin> fluctuatePrices(List<Cryptocoin> cryptos) {
         List<Cryptocoin> result = new ArrayList<>();
@@ -34,7 +33,9 @@ public class MarketService implements MarketTransaction {
 
     public void simulateTurn(int turn, List<Cryptocoin> cryptos, List<User> users, Queue<Transaction> orderBook) {
 
+        logger.info("--- Turn {} ---", turn);
         System.out.println("\n--- Turn " + turn + " ---");
+
 
         for (int i = 0; i < cryptos.size(); i++) {
             List<Cryptocoin> temp = new ArrayList<>();
@@ -49,8 +50,6 @@ public class MarketService implements MarketTransaction {
             if (i < cryptos.size() - 1) System.out.print(", ");
         }
 
-        System.out.println();
-
         for (User user : users) {
 
             boolean willTrade = getRandomInt(0, 1) == 1;
@@ -64,21 +63,24 @@ public class MarketService implements MarketTransaction {
                         user.getName(),
                         chosenCrypto.getName(),
                         Double.parseDouble(chosenCrypto.getPrice_usd())
+                        , isBuy ? TransactionType.BUY : TransactionType.SELL
                 );
 
                 orderBook.add(transaction);
 
                 if (isBuy) {
-                    buy(user, chosenCrypto, quantity);
+                    buy(user, chosenCrypto, quantity, TransactionType.BUY);
                 } else {
-                    sell(user, chosenCrypto, quantity);
+                    sell(user, chosenCrypto, quantity, TransactionType.SELL);
                 }
 
                 for (Cryptocoin coin : user.getWallet().getItems()) {
+                    logger.info("{} has {} in wallet.", user.getName(), coin.getName());
                     System.out.println(user.getName() + " has " + coin.getName() + " in wallet.");
                 }
 
             } else {
+                logger.info("{} decides not to trade this turn.", user.getName());
                 System.out.println(user.getName() + " decides not to trade this turn.");
             }
 
@@ -86,54 +88,31 @@ public class MarketService implements MarketTransaction {
     }
 
     @Override
-    public void buy(User user, Cryptocoin coin, int quantity) {
+    public void buy(User user, Cryptocoin coin, int quantity, TransactionType transactionType) {
 
-        for (int i = 0; i < quantity; i++) {
-            user.getWallet().addItem(new Cryptocoin(
-                    coin.getId(),
-                    coin.getSymbol(),
-                    coin.getName(),
-                    coin.getPrice_usd()
-            ));
-        }
+        ProcessTransactionService.processBuyTransaction(user, coin, quantity, transactionType);
 
-        System.out.println(user.getName() + " buys " + quantity + " units of " + coin.getName() + " at $" + coin.getPrice_usd());
+        logger.info("{} buys {} units of {} at ${} new balance: {} in COP", user.getName(), quantity, coin.getName(), coin.getPrice_usd(), user.getBalance());
+        System.out.println(user.getName() + " buys " + quantity + " units of " + coin.getName() + " at $" + coin.getPrice_usd() + "new balance: " + user.getBalance() + " COP");
 
     }
 
     @Override
-    public void sell(User user, Cryptocoin coin, int quantity) {
+    public void sell(User user, Cryptocoin coin, int quantity, TransactionType transactionType) {
 
-        int ownedCount = 0;
+        ProcessTransactionService.processSellTransaction(user, coin, quantity, transactionType);
 
-
-        for (Cryptocoin c : user.getWallet().getItems()) {
-            if (c.getName().equals(coin.getName())) {
-                ownedCount++;
-            }
-        }
-
-        if (ownedCount < quantity) {
-            return;
-        }
-
-        int removed = 0;
-        Stack<Cryptocoin> tempStack = new Stack<>();
-        while (!user.getWallet().isEmpty()) {
-            Cryptocoin current = user.getWallet().removeItem();
-            if (current.getName().equals(coin.getName()) && removed < quantity) {
-                removed++;
-            } else {
-                tempStack.push(current);
-            }
-        }
-
-        while (!tempStack.isEmpty()) {
-            user.getWallet().addItem(tempStack.pop());
-        }
-
+        logger.info("{} sold {} units of {} at ${}", user.getName(), quantity, coin.getName(), coin.getPrice_usd());
         System.out.println(user.getName() + " sold " + quantity + " units of " + coin.getName() + " at $" + coin.getPrice_usd());
 
     }
+
+    private static final Random rand = new Random();
+
+    public static int getRandomInt(int min, int max) {
+        return rand.nextInt((max - min) + 1) + min;
+    }
+
 }
+
 

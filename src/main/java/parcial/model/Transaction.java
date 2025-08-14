@@ -1,15 +1,19 @@
 package parcial.model;
 
+import parcial.model.type.TransactionType;
+
 public class Transaction {
 
     private String user;
     private String crypto;
     private double price;
+    private final TransactionType type;
 
-    public Transaction(String user, String crypto, double price) {
+    public Transaction(String user, String crypto, double price, TransactionType type) {
         this.user = user;
         this.crypto = crypto;
         this.price = price;
+        this.type = type;
     }
 
     public String getUser() {
@@ -36,9 +40,13 @@ public class Transaction {
         this.price = price;
     }
 
+    public TransactionType getType() {
+        return type;
+    }
+
     @Override
     public String toString() {
-        return user + " quiere operar " + price + " a $" + String.format("%.2f", price);
+        return user + type.toString().toLowerCase() + " " + crypto + " at $" + price + " USD";
     }
 
 }
