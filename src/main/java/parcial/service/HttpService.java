@@ -2,6 +2,8 @@ package parcial.service;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import parcial.model.Cryptocoin;
 
 import java.net.URI;
@@ -12,6 +14,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class HttpService {
+
+    private static final Logger logger = LogManager.getLogger(HttpService.class);
 
     public static List<Cryptocoin> get(String url) {
 
@@ -39,10 +43,9 @@ public class HttpService {
             return cryptocoins;
 
         } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
+            logger.error("Error fetching data from URL: {}", e.getMessage());
+            throw new RuntimeException("Failed to fetch data from URL: " + url, e);
         }
-
-        return null;
 
     }
 }

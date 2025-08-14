@@ -1,0 +1,501 @@
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 1 units of Binance Staked SOL at $242.09 USD but has insufficient balance. Needed: 968360.0 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Luis buys 1 units of Binance Staked SOL at $242.09
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to buy 2 units of Uniswap at $13.62 USD but has insufficient balance. Needed: 108960.0 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Santiago buys 2 units of Uniswap at $13.62
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 2 units of Kaia at $1.03 USD but has insufficient balance. Needed: 8240.0 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Luis buys 2 units of Kaia at $1.03
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to sell 3 units of OKB at $119.39 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Santiago sold 3 units of OKB at $119.39
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 5 units of Celestia at $2.32 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Maria sold 5 units of Celestia at $2.32
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 5 units of Dai at $1.06 USD but has insufficient balance. Needed: 21200.000000000004 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Juan buys 5 units of Dai at $1.06
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to buy 4 units of Bitcoin Cash at $681.38 USD but has insufficient balance. Needed: 1.090208E7 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Santiago buys 4 units of Bitcoin Cash at $681.38
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 3 units of Arbitrum at $1.0 USD but has insufficient balance. Needed: 12000.0 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Luis buys 3 units of Arbitrum at $1.00
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 3 units of Tether at $1.00 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Maria sold 3 units of Tether at $1.00
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 1 units of SPX6900 at $1.72 USD but has insufficient balance. Needed: 6880.0 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Juan buys 1 units of SPX6900 at $1.72
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 4 units of Nexo at $1.68 USD but has insufficient coins. Owned: 0, Trying to sell: 4
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Maria sold 4 units of Nexo at $1.68
+2025-08-13 23:07:45 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 1 units of Sei at $1.17 USD but has insufficient balance. Needed: 4680.0 COP, Available: 0.0 COP
+2025-08-13 23:07:45 [main] INFO  parcial.service.MarketService - Juan buys 1 units of Sei at $1.17
+2025-08-13 23:07:45 [main] ERROR parcial.model.UserReport - Portfolio cannot be empty: parcial.model.Wallet@1c33c17b
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to buy 3 units of Litecoin at $121.0 USD but has insufficient balance. Needed: 1452000.0 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Maria buys 3 units of Litecoin at $121.00 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to sell 3 units of Sui at $3.78 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Santiago sold 3 units of Sui at $3.78
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 1 units of Internet Computer (IOU) at $6.53 USD but has insufficient balance. Needed: 26120.0 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Juan buys 1 units of Internet Computer (IOU) at $6.53 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 3 units of Curve DAO Token at $1.00 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Maria sold 3 units of Curve DAO Token at $1.00
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 5 units of EOS at $1.19 USD but has insufficient balance. Needed: 23799.999999999996 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Juan buys 5 units of EOS at $1.19 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to buy 5 units of Crypto.com Chain at $1.05 USD but has insufficient balance. Needed: 21000.0 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Santiago buys 5 units of Crypto.com Chain at $1.05 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 2 units of Aerodrome Finance at $1.23 USD but has insufficient balance. Needed: 9840.0 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Juan buys 2 units of Aerodrome Finance at $1.23 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 5 units of PAX Gold at $3574.50 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Luis sold 5 units of PAX Gold at $3574.50
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to buy 4 units of Filecoin at $2.13 USD but has insufficient balance. Needed: 34080.0 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Maria buys 4 units of Filecoin at $2.13 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 5 units of Cosmos at $5.35 USD but has insufficient balance. Needed: 107000.0 COP, Available: 0.0 COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.MarketService - Juan buys 5 units of Cosmos at $5.35 new balance: 0.0 in COP
+2025-08-13 23:13:35 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago buys 1 units of Tether at $1.00 new balance: 96000.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis buys 4 units of Pudgy Penguins at $1.00 new balance: 34000.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 4 units of Staked Ether at $4665.56 USD but has insufficient coins. Owned: 0, Trying to sell: 4
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan sold 4 units of Staked Ether at $4665.56
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 96000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago buys 3 units of TON Coin at $3.73 new balance: 51240.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 34000.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 2 units of Pendle at $6.67 USD but has insufficient balance. Needed: 53360.0 COP, Available: 34000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis buys 2 units of Pendle at $6.67 new balance: 34000.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria buys 5 units of Conflux at $1.09 new balance: 53200.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria has Conflux in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria has Conflux in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria has Conflux in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria has Conflux in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria has Conflux in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan buys 5 units of XinFin Network at $1.03 new balance: 179400.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 51240.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago buys 2 units of Tether at $1.12 new balance: 42280.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 34000.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 5 units of Binance Staked SOL at $222.71 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis sold 5 units of Binance Staked SOL at $222.71
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 179400.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 3 units of Mantle Restaked Ether at $3697.02 USD but has insufficient balance. Needed: 4.436424E7 COP, Available: 179400.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan buys 3 units of Mantle Restaked Ether at $3697.02 new balance: 179400.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 42280.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to buy 5 units of NEAR Protocol at $2.93 USD but has insufficient balance. Needed: 58600.0 COP, Available: 42280.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago buys 5 units of NEAR Protocol at $2.93 new balance: 42280.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 179400.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 5 units of Aptos at $4.89 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan sold 5 units of Aptos at $4.89
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 42280.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to sell 5 units of Crypto.com Chain at $1.12 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago sold 5 units of Crypto.com Chain at $1.12
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has TON Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Santiago has Tether in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 34000.0 COP
+2025-08-13 23:18:46 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 3 units of Jito Staked SOL at $245.71 USD but has insufficient balance. Needed: 2948520.0 COP, Available: 34000.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis buys 3 units of Jito Staked SOL at $245.71 new balance: 34000.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Luis has Pudgy Penguins in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 179400.0 COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan buys 1 units of USD Coin at $1.15 new balance: 174800.0 in COP
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has XinFin Network in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.MarketService - Juan has USD Coin in wallet.
+2025-08-13 23:18:46 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to buy 1 units of Binance Staked SOL at $205.16 USD but has insufficient balance. Needed: 820640.0 COP, Available: 100000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Santiago buys 1 units of Binance Staked SOL at $205.16 new balance: 100000.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 2 units of Quant at $120.94 USD but has insufficient balance. Needed: 967520.0 COP, Available: 50000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis buys 2 units of Quant at $120.94 new balance: 50000.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria buys 4 units of Ondo at $1.01 new balance: 58840.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria has Ondo in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria has Ondo in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria has Ondo in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria has Ondo in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 5 units of Bitcoin at $111021.73 USD but has insufficient balance. Needed: 2.2204346E9 COP, Available: 200000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan buys 5 units of Bitcoin at $111021.73 new balance: 200000.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis buys 1 units of Algorand at $1.00 new balance: 46000.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Algorand in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to sell 2 units of Fartcoin at $1.26 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Santiago sold 2 units of Fartcoin at $1.26
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 46000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis buys 2 units of Pi at $1.07 new balance: 37440.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Algorand in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Pi in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Pi in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan buys 3 units of Fasttoken at $4.69 new balance: 143720.0 in COP
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan has Fasttoken in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan has Fasttoken in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan has Fasttoken in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 37440.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 5 units of Wrapped Bitcoin at $125921.63 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis sold 5 units of Wrapped Bitcoin at $125921.63
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Algorand in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Pi in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Pi in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 37440.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 3 units of XRP at $2.68 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis sold 3 units of XRP at $2.68
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Algorand in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Pi in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Luis has Pi in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 143720.0 COP
+2025-08-13 23:24:19 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 5 units of Flare at $1.26 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan sold 5 units of Flare at $1.26
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan has Fasttoken in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan has Fasttoken in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.MarketService - Juan has Fasttoken in wallet.
+2025-08-13 23:24:19 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 1 units of Stacks at $1.00 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Luis sold 1 units of Stacks at $1.00
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan buys 5 units of Stacks at $1.00 new balance: 180000.0 in COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 5 units of Bonk at $1.00 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Luis sold 5 units of Bonk at $1.00
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 1 units of Internet Computer (IOU) at $5.46 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria sold 1 units of Internet Computer (IOU) at $5.46
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 180000.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 5 units of KuCoin Shares at $13.41 USD but has insufficient balance. Needed: 268200.0 COP, Available: 180000.0 COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan buys 5 units of KuCoin Shares at $13.41 new balance: 180000.0 in COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago buys 2 units of Conflux at $1.00 new balance: 92000.0 in COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago has Conflux in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago has Conflux in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria buys 1 units of Optimism at $1.00 new balance: 71000.0 in COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria has Optimism in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 71000.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 1 units of Worldcoin at $1.25 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria sold 1 units of Worldcoin at $1.25
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria has Optimism in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 180000.0 COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan buys 1 units of PancakeSwap at $3.31 new balance: 166760.0 in COP
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has PancakeSwap in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 92000.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to sell 5 units of OFFICIAL TRUMP at $9.77 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago sold 5 units of OFFICIAL TRUMP at $9.77
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago has Conflux in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Santiago has Conflux in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 166760.0 COP
+2025-08-13 23:26:20 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 3 units of VeChain at $1.29 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan sold 3 units of VeChain at $1.29
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has Stacks in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.MarketService - Juan has PancakeSwap in wallet.
+2025-08-13 23:26:20 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis buys 2 units of Virtual Protocol at $1.18 new balance: 40560.0 in COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:27:13 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 1 units of Monero at $273.72 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria sold 1 units of Monero at $273.72
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago buys 1 units of TRON at $1.09 new balance: 95640.0 in COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has TRON in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 40560.0 COP
+2025-08-13 23:27:13 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 1 units of KuCoin Shares at $14.85 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis sold 1 units of KuCoin Shares at $14.85
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria buys 5 units of Sei at $1.05 new balance: 54000.0 in COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 40560.0 COP
+2025-08-13 23:27:13 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 2 units of Ethena USDe at $1.15 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis sold 2 units of Ethena USDe at $1.15
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 95640.0 COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago buys 5 units of Nexo at $1.33 new balance: 69040.0 in COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has TRON in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has Nexo in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has Nexo in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has Nexo in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has Nexo in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Santiago has Nexo in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 40560.0 COP
+2025-08-13 23:27:13 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 3 units of Curve DAO Token at $1.10 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis sold 3 units of Curve DAO Token at $1.10
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Luis has Virtual Protocol in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 54000.0 COP
+2025-08-13 23:27:13 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to buy 4 units of Quant at $127.24 USD but has insufficient balance. Needed: 2035840.0 COP, Available: 54000.0 COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria buys 4 units of Quant at $127.24 new balance: 54000.0 in COP
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Maria has Sei in wallet.
+2025-08-13 23:27:13 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:27:13 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago buys 1 units of IOTA at $1.00 new balance: 96000.0 in COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has IOTA in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 1 units of The Graph at $1.00 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis sold 1 units of The Graph at $1.00
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 3 units of Virtual Protocol at $1.47 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Maria sold 3 units of Virtual Protocol at $1.47
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 96000.0 COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago buys 3 units of NEAR Protocol at $2.70 new balance: 63599.99999999999 in COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has IOTA in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to buy 1 units of Ethereum at $4369.1 USD but has insufficient balance. Needed: 1.74764E7 COP, Available: 75000.0 COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Maria buys 1 units of Ethereum at $4369.10 new balance: 75000.0 in COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 63599.99999999999 COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago buys 3 units of First Digital USD at $1.15 new balance: 49799.99999999999 in COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has IOTA in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has First Digital USD in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has First Digital USD in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago has First Digital USD in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis buys 4 units of Shiba Inu at $1.10 new balance: 32400.0 in COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 1 units of Mantle Staked Ether at $4800.17 USD but has insufficient coins. Owned: 0, Trying to sell: 1
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Maria sold 1 units of Mantle Staked Ether at $4800.17
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 32400.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 3 units of NEAR Protocol at $3.27 USD but has insufficient balance. Needed: 39240.0 COP, Available: 32400.0 COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis buys 3 units of NEAR Protocol at $3.27 new balance: 32400.0 in COP
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Luis has Shiba Inu in wallet.
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Maria balance before buy: 75000.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Maria tried to sell 5 units of Stacks at $1.14 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Maria sold 5 units of Stacks at $1.14
+2025-08-13 23:41:34 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:41:34 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 5 units of dogwifhat at $1.02 USD but has insufficient coins. Owned: 0, Trying to sell: 5
+2025-08-13 23:41:34 [main] INFO  parcial.service.MarketService - Juan sold 5 units of dogwifhat at $1.02
+2025-08-13 23:41:34 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json
+2025-08-13 23:43:13 [main] INFO  parcial.service.MarketService - --- Turn 1 ---
+2025-08-13 23:43:13 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:43:13 [main] WARN  parcial.service.ProcessTransactionService - Santiago tried to sell 2 units of Internet Computer (IOU) at $5.91 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago sold 2 units of Internet Computer (IOU) at $5.91
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 3 units of Pendle at $5.66 USD but has insufficient balance. Needed: 67920.0 COP, Available: 50000.0 COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Luis buys 3 units of Pendle at $5.66 new balance: 50000.0 in COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - --- Turn 2 ---
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 3 units of Aave at $367.90 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Juan sold 3 units of Aave at $367.90
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - --- Turn 3 ---
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to sell 3 units of Aptos at $5.07 USD but has insufficient coins. Owned: 0, Trying to sell: 3
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Luis sold 3 units of Aptos at $5.07
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to sell 2 units of Hedera Hashgraph at $1.00 USD but has insufficient coins. Owned: 0, Trying to sell: 2
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Juan sold 2 units of Hedera Hashgraph at $1.00
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - --- Turn 4 ---
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 100000.0 COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago buys 2 units of Optimism at $1.00 new balance: 92000.0 in COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago has Optimism in wallet.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago has Optimism in wallet.
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Luis balance before buy: 50000.0 COP
+2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Luis tried to buy 4 units of Injective Protocol at $13.23 USD but has insufficient balance. Needed: 211680.0 COP, Available: 50000.0 COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Luis buys 4 units of Injective Protocol at $13.23 new balance: 50000.0 in COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Juan decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - --- Turn 5 ---
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Santiago balance before buy: 92000.0 COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago buys 2 units of NEAR Protocol at $3.23 new balance: 66160.0 in COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago has Optimism in wallet.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago has Optimism in wallet.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Santiago has NEAR Protocol in wallet.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Luis decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Maria decides not to trade this turn.
+2025-08-13 23:43:14 [main] INFO  parcial.service.ProcessTransactionService - User Juan balance before buy: 200000.0 COP
+2025-08-13 23:43:14 [main] WARN  parcial.service.ProcessTransactionService - Juan tried to buy 1 units of Staked Ether at $3748.53 USD but has insufficient balance. Needed: 1.499412E7 COP, Available: 200000.0 COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.MarketService - Juan buys 1 units of Staked Ether at $3748.53 new balance: 200000.0 in COP
+2025-08-13 23:43:14 [main] INFO  parcial.service.ReportService - Final report generated successfully: final_report.json

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "08eb8b84-0e97-4005-a5da-03cdb1a162bf",
+    "name": "Santiago",
+    "finalBalanceCOP": 66160.0,
+    "finalBalanceUSD": 16.54,
+    "portfolioValueCOP": 33840.0,
+    "portfolio": {
+      "items": [
+        {
+          "id": "70497",
+          "symbol": "OP",
+          "name": "Optimism",
+          "price_usd": "1.00"
+        },
+        {
+          "id": "70497",
+          "symbol": "OP",
+          "name": "Optimism",
+          "price_usd": "1.00"
+        },
+        {
+          "id": "48563",
+          "symbol": "NEAR",
+          "name": "NEAR Protocol",
+          "price_usd": "3.23"
+        },
+        {
+          "id": "48563",
+          "symbol": "NEAR",
+          "name": "NEAR Protocol",
+          "price_usd": "3.23"
+        }
+      ]
+    },
+    "transactions": [
+      {
+        "user": "Santiago",
+        "crypto": "Optimism",
+        "price": 1.0,
+        "type": "BUY"
+      },
+      {
+        "user": "Santiago",
+        "crypto": "NEAR Protocol",
+        "price": 3.23,
+        "type": "BUY"
+      }
+    ]
+  },
+  {
+    "id": "7b0fcd48-4ec5-4c32-8a53-a212452ac5f7",
+    "name": "Luis",
+    "finalBalanceCOP": 50000.0,
+    "finalBalanceUSD": 12.5,
+    "portfolioValueCOP": 0.0,
+    "portfolio": {
+      "items": []
+    },
+    "transactions": []
+  },
+  {
+    "id": "891665fd-9cc6-47e3-ac79-0b50d9f4f388",
+    "name": "Maria",
+    "finalBalanceCOP": 75000.0,
+    "finalBalanceUSD": 18.75,
+    "portfolioValueCOP": 0.0,
+    "portfolio": {
+      "items": []
+    },
+    "transactions": []
+  },
+  {
+    "id": "ca99e8e2-ded2-465b-816b-74858549f468",
+    "name": "Juan",
+    "finalBalanceCOP": 200000.0,
+    "finalBalanceUSD": 50.0,
+    "portfolioValueCOP": 0.0,
+    "portfolio": {
+      "items": []
+    },
+    "transactions": []
+  }
+]
