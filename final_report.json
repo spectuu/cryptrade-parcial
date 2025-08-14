@@ -1,77 +1,111 @@
 [
   {
-    "id": "08eb8b84-0e97-4005-a5da-03cdb1a162bf",
+    "id": "a2d18959-d4af-40fe-967e-9a44a820b6dd",
     "name": "Santiago",
-    "finalBalanceCOP": 66160.0,
-    "finalBalanceUSD": 16.54,
-    "portfolioValueCOP": 33840.0,
+    "finalBalanceCOP": 88000.0,
+    "finalBalanceUSD": 22.0,
+    "portfolioValueCOP": 12000.0,
     "portfolio": {
       "items": [
         {
-          "id": "70497",
-          "symbol": "OP",
-          "name": "Optimism",
+          "id": "48561",
+          "symbol": "GRT",
+          "name": "The Graph",
           "price_usd": "1.00"
         },
         {
-          "id": "70497",
-          "symbol": "OP",
-          "name": "Optimism",
+          "id": "48561",
+          "symbol": "GRT",
+          "name": "The Graph",
           "price_usd": "1.00"
         },
         {
-          "id": "48563",
-          "symbol": "NEAR",
-          "name": "NEAR Protocol",
-          "price_usd": "3.23"
-        },
-        {
-          "id": "48563",
-          "symbol": "NEAR",
-          "name": "NEAR Protocol",
-          "price_usd": "3.23"
+          "id": "48561",
+          "symbol": "GRT",
+          "name": "The Graph",
+          "price_usd": "1.00"
         }
       ]
     },
     "transactions": [
       {
         "user": "Santiago",
-        "crypto": "Optimism",
+        "crypto": "The Graph",
         "price": 1.0,
-        "type": "BUY"
-      },
-      {
-        "user": "Santiago",
-        "crypto": "NEAR Protocol",
-        "price": 3.23,
         "type": "BUY"
       }
     ]
   },
   {
-    "id": "7b0fcd48-4ec5-4c32-8a53-a212452ac5f7",
+    "id": "7294d0ac-9c53-4fb0-829d-4a30447b735c",
     "name": "Luis",
-    "finalBalanceCOP": 50000.0,
-    "finalBalanceUSD": 12.5,
-    "portfolioValueCOP": 0.0,
+    "finalBalanceCOP": 36920.0,
+    "finalBalanceUSD": 9.23,
+    "portfolioValueCOP": 13080.000000000002,
     "portfolio": {
-      "items": []
+      "items": [
+        {
+          "id": "151099",
+          "symbol": "PI",
+          "name": "Pi",
+          "price_usd": "1.09"
+        },
+        {
+          "id": "151099",
+          "symbol": "PI",
+          "name": "Pi",
+          "price_usd": "1.09"
+        },
+        {
+          "id": "151099",
+          "symbol": "PI",
+          "name": "Pi",
+          "price_usd": "1.09"
+        }
+      ]
     },
-    "transactions": []
+    "transactions": [
+      {
+        "user": "Luis",
+        "crypto": "Pi",
+        "price": 1.09,
+        "type": "BUY"
+      }
+    ]
   },
   {
-    "id": "891665fd-9cc6-47e3-ac79-0b50d9f4f388",
+    "id": "cf452316-c416-4b11-964a-cf6a2ad43480",
     "name": "Maria",
-    "finalBalanceCOP": 75000.0,
-    "finalBalanceUSD": 18.75,
-    "portfolioValueCOP": 0.0,
+    "finalBalanceCOP": 47000.0,
+    "finalBalanceUSD": 11.75,
+    "portfolioValueCOP": 30480.0,
     "portfolio": {
-      "items": []
+      "items": [
+        {
+          "id": "54683",
+          "symbol": "TON",
+          "name": "TON Coin",
+          "price_usd": "3.50"
+        },
+        {
+          "id": "54683",
+          "symbol": "TON",
+          "name": "TON Coin",
+          "price_usd": "3.50"
+        }
+      ]
     },
-    "transactions": []
+    "transactions": [
+      {
+        "user": "Maria",
+        "crypto": "TON Coin",
+        "price": 3.5,
+        "type": "BUY"
+      }
+    ]
   },
   {
-    "id": "ca99e8e2-ded2-465b-816b-74858549f468",
+    "id": "cb0d7178-4115-43e7-969b-a8b604af8449",
     "name": "Juan",
     "finalBalanceCOP": 200000.0,
     "finalBalanceUSD": 50.0,
